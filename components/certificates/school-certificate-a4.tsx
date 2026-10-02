@@ -114,7 +114,7 @@ export function SchoolCertificateA4({ data }: SchoolCertificateA4Props) {
             <img src={inst.stamp_url} alt="Cachet" className="school-cert-stamp" />
           )}
 
-          {inst.director_name && <p className="school-cert-signatory-name">{inst.director_name}</p>}
+          
           {inst.director_function && <p className="school-cert-signatory-function">{inst.director_function}</p>}
         </div>
       </div>
